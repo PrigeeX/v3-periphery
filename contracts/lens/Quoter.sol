@@ -2,10 +2,10 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@uniswap/v3-core/contracts/libraries/SafeCast.sol';
-import '@uniswap/v3-core/contracts/libraries/TickMath.sol';
-import '@uniswap/v3-core/contracts/interfaces/IPrigeeXV3Pool.sol';
-import '@uniswap/v3-core/contracts/interfaces/callback/IPrigeeXV3SwapCallback.sol';
+import '@prigeex/v3-core/contracts/libraries/SafeCast.sol';
+import '@prigeex/v3-core/contracts/libraries/TickMath.sol';
+import '@prigeex/v3-core/contracts/interfaces/IPrigeeXV3Pool.sol';
+import '@prigeex/v3-core/contracts/interfaces/callback/IPrigeeXV3SwapCallback.sol';
 
 import '../interfaces/IQuoter.sol';
 import '../base/PeripheryImmutableState.sol';

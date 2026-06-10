@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-import '@uniswap/v3-core/contracts/interfaces/IPrigeeXV3Pool.sol';
+import '@prigeex/v3-core/contracts/interfaces/IPrigeeXV3Pool.sol';
 
 pragma solidity >=0.6.0;
 

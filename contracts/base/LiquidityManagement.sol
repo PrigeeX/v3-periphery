@@ -2,9 +2,9 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@uniswap/v3-core/contracts/interfaces/IPrigeeXV3Factory.sol';
-import '@uniswap/v3-core/contracts/interfaces/callback/IPrigeeXV3MintCallback.sol';
-import '@uniswap/v3-core/contracts/libraries/TickMath.sol';
+import '@prigeex/v3-core/contracts/interfaces/IPrigeeXV3Factory.sol';
+import '@prigeex/v3-core/contracts/interfaces/callback/IPrigeeXV3MintCallback.sol';
+import '@prigeex/v3-core/contracts/libraries/TickMath.sol';
 
 import '../libraries/PoolAddress.sol';
 import '../libraries/CallbackValidation.sol';
