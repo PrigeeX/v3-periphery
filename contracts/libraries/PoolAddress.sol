@@ -3,7 +3,7 @@ pragma solidity >=0.5.0;
 
 /// @title Provides functions for deriving a pool address from the factory, tokens, and the fee
 library PoolAddress {
-    bytes32 internal constant POOL_INIT_CODE_HASH = 0x9d01674fa4c041a6feb496325057e74b8546b792abfab20ab028d22a745ab8a0; // PrigeeX post-rename
+    bytes32 internal constant POOL_INIT_CODE_HASH = 0xd3e7f58b9af034cfa7a0597e539bae7c6b393817a47a6fc1e1503cd6eaffe22a; // PrigeeXV3Pool init code hash (deterministic; bytecode_hash=none)
 
     /// @notice The identifying key of the pool
     struct PoolKey {
